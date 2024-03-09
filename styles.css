@@ -28,7 +28,7 @@ button {
     border: none;
 }
 
-.hero, .body, .carousel, .action {
+.hero, .carousel, .quote, .action {
     /* top bottom | left right */
     padding: 0 132px;
 }
@@ -74,34 +74,31 @@ button {
     margin-top: 12px;
 }
 
-.body .header {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+.carousel {
+    text-align: center;
+    font-size: 11px;
+    margin: 32px 0px;
+}
+
+.carousel .header {
     margin-bottom: 32px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
 }
 
-.body {
-    text-align: center;
-    font-size: 11px;
-    margin: 32px 0px;
-}
-
 .info {
     max-width: 100px;
 }
 
-.random-info {
+.container {
     display: flex;
     justify-content: center;
     gap: 24px;
-    /* align-items: center; */
 }
 
 .info img {
+    /* resize rectangles to squares */
     object-fit: cover;
     width: 100px;
     height: 100px;
