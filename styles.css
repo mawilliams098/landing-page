@@ -28,7 +28,7 @@ button {
     border: none;
 }
 
-.hero, .body, .quote, .action {
+.hero, .body, .carousel, .action {
     /* top bottom | left right */
     padding: 0 132px;
 }
@@ -50,7 +50,7 @@ button {
     background-color: #1F2937;
 }
 
-.hero-content {
+.hero .content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,18 +58,18 @@ button {
     padding: 64px 0;
 }
 
-.hero-main {
+.hero .main {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
-.hero-secondary {
+.hero .secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.hero-button {
+.hero button {
     background-color: #3882F6;
     margin-top: 12px;
 }
