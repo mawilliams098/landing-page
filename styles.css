@@ -96,7 +96,8 @@ button {
 .carousel .container {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 32px;
+    margin-bottom: 64px;
 }
 
 .info img {
@@ -125,21 +126,21 @@ button {
     text-align: end;
 }
 
-.action .container {
-    color:#F9FAF8;
-    background-color: #3882F6;
-    border-radius: 8px;
+.quote .container {
     padding: 32px;
-    /* margin: 64px, 132px; */
-    margin-top: 64px;
-    margin-bottom: 64px;
 }
 
 .action .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 62px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 32px;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .action .main {
